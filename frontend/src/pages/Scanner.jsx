@@ -72,7 +72,7 @@ const Scanner = () => {
     formData.append("allergens", scanAllergies.join(",")); 
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/scan", formData, {
+      const response = await axios.post("https://allergy-sentinel.onrender.com/scan", formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
       
