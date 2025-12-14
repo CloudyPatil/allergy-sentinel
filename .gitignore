@@ -1,0 +1,14 @@
+# Python junk
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Testing images (we don't want to upload these)
+test_images/
+*.jpg
+*.png
+
+# Frontend junk (just in case)
+node_modules/
+.DS_Store

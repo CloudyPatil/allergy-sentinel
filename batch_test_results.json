@@ -1,0 +1,354 @@
+[
+  {
+    "filename": "sample1.jpg",
+    "timestamp": "2025-12-12 12:11:02",
+    "ocr_snippet": "wo\ncontent more th\nyntent more the\ngredients\ncoriander, cumin, ct\nturmeric, black pepper\ngarlic, dried ginger\nmace, green corda\n bengal gram, black gia\nnutmeg, fenugreek\ncassia bark taj, \ncaraway, sta",
+    "extraction_success": true,
+    "extracted_ingredients_count": 5,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "mustard"
+    ],
+    "full_ocr_text": "wo\ncontent more th\nyntent more the\n(GREDIENTS\nCoriander, Cumin, Ct\nTurmeric, Black Pepper\nGarlic, Dried Ginger\nMace, Green Corda\n© Bengal Gram, Black gia\nNutmeg, Fenugreek\nCassia Bark (Taj), (\nCaraway, Star An\na Dried Fenugreek |\nlodized Salt, Compounded\nAsafoetida, Mustard\n_— and Black Cardamom a ll\nALLERGEN INFORMATION\nContains Mustard\nScan for Recipes\ny,\n@ ; ‘\nKeep it in o cool, hygienic\nand dry place. Once opened\n< PY keep in an airtight container.)\n, 7 Packed in India\n"
+  },
+  {
+    "filename": "sample10.jpg",
+    "timestamp": "2025-12-12 12:11:03",
+    "ocr_snippet": "a o\ned expiry date\na keep away from direct sunlight  heat\nem l aana\na alooccio 5oo27 l\n2yccueon me\nfi i\noe\n2 5 seasoning ment  a\nress resem\n3 allergen advice coatains peanut\nproduct of owa \n hutrition",
+    "extraction_success": true,
+    "extracted_ingredients_count": 1,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ],
+    "full_ocr_text": "@ 0.\ned EXPIRY DATE:\na KEEP AWAY FROM DIRECT SUNLIGHT & HEAT\nem | AANA)?\n@ alooccio 50027 |\n2\\yccueon Me\nfi i\noe\n2 5 SEASONING MENT - a\nress resem\n3 ALLERGEN ADVICE: COATAINS PEANUT.\nPRODUCT OF OWA :\n: HUTRITIONALINFORMATION® pen 1009\na ENERGY i |\n= PROTEN uw _\nae \"| ’ :\nrg\n} P\n"
+  },
+  {
+    "filename": "sample11.jpg",
+    "timestamp": "2025-12-12 12:11:04",
+    "ocr_snippet": "nll\n ya     3\n  ya\nf i yr i  x p\n   , a til 4\n5  nolan shatis 6 savouries j \nee  el   24\naye mal information  pen i895 nf\nrabovorate oo\na   aa\n5g",
+    "extraction_success": true,
+    "extracted_ingredients_count": 2,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sesame"
+    ],
+    "full_ocr_text": "nll\n: ya > — ‘ . 3\n\\ \" ya\nf 1. yr i - x. P\n'? ‘ : , a til 4\n5 } NOLAN SHATIS 6 SAVOURIES J ©\nee = el = _ 24\naye\" MAL INFORMATION / pen 1895 nf\nRABOVORATE oo\n“a. “ ‘ aa\n5G\n"
+  },
+  {
+    "filename": "sample12.jpg",
+    "timestamp": "2025-12-12 12:11:04",
+    "ocr_snippet": "al \n\ningredients l\ncre edble vegetable on contans one or more the follomings pies i\nao seasoming sugar ble common salt maltodextrn sees 6 oe \nchilli cumin, clove, cinnamon, dehydrated vegetable powder",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "peanut"
+    ],
+    "full_ocr_text": "al =\n\nINGREDIENTS: |\ncre EDBLE VEGETABLE ON. (CONTANS ONE. OR MORE THE FOLLOMINGS PIES i\nao **SEASOMING (SUGAR BLE COMMON SALT MALTODEXTRN SEES 6 OE /\n(CHILLI CUMIN, CLOVE, CINNAMON), DEHYDRATED VEGETABLE POWDER Prat’ GARI \\\nACIDITY REGULATOR (NS 296, INS 30), ANTICAKING AGENT (INS sl FLAVOUR\n\n1NS 63), FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SU TANCES), f\n+ AS FLAVOURING & SEASONING AGENT ‘ j\nPOTATO WAFERS wa\nREAD SURES POE F000 NDAN 5 SAVOURIES |\nALLERGEN ADVICE: MAY CONTAIN PEANUT.\n\nPRODUCT OF INDIA 4\n\nNUTRITIONAL INFORMATION\" =) PER 100g E ;\n\nrr min! 4\n\nmare 50]\n\nCARBOHYDRATES Y 5359\n\na, =\n\nJOVALOFIARY FIBER a :\n\nTOTAL FAI ee : ; '\n\nSALURAYE — wy r\\s\nREDMI 12 5G a 7 5 j or\n"
+  },
+  {
+    "filename": "sample13.jpg",
+    "timestamp": "2025-12-12 12:11:05",
+    "ocr_snippet": "product category plain meme l \nchocolate ee f\ncl a\ningredients cocoa mass, frag ica l 3o8i\nsugar, cocoa butter, a a  \nbohydrate 6 l we l \ntotal cocoa content 7o ffotalfatig l 4oiii\ncontains soy satura",
+    "extraction_success": true,
+    "extracted_ingredients_count": 5,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ],
+    "full_ocr_text": "Product Category: Plain meme | }-\nChocolate. “ee F\nCL a\nIngredients: Cocoa mass’, [Frag ica) | 3081\nSugar, Cocoa butter’, a a . &\nbohydrate (6) | we | -\n\"Total Cocoa Content: 70% ffotalfatig) | 401-11\nContains Soy. Saturated Fat(g) | 25.8 |\nTreenut and Milk. Sodium(ng) | 64 | 0\n“Reference Intake of an average adult (200\nApprox. no. of serves in the pack: 5.5\nManufactured By: Mars International India Pvt. Ltd., fat\n4658-A, No. 21, Ansari Road, Lic. No. 1001201100\nDarya Ganj, New Delhi - 110 002.\nAt: Plot No. I-09/11A, Khed City Industrial Area, At PO Nimgaon, Taluka |\nDistrict Pune - 410 505, Maharashtra, India. Lic. No. 10016022004739\nFor packaging location refer to the last alphabet of the batch cod\nA: Mars International India Pvt. Ltd., Plot No. |-09/11A, Khed City\nindustrial Area, At PO Nimgaon, Taluka Khed, District Pune - 410 5\nMaharashtra, India. Lic. No. 10016022004739\nB: Ameya Plastics, Gat No. 261/5 & 261/6, Somwanshi Industrial\nEstate, At/Post Chakan, Village Kharabwadi, Taluka Khed, Dist. Pur\nMaharashtra - 410 501. Lic. No. 10020022011413 ,\nFor consumer queries, feedback or complain\n| write to the manufacturer's address above,\nemail at: mars.india.chocolates@effem.com\nor call at 1800 889 2121.\naN 18 22\nMp | PAP 12/4 272025 412130! %\nj | ie\n"
+  },
+  {
+    "filename": "sample14.jpg",
+    "timestamp": "2025-12-12 12:11:07",
+    "ocr_snippet": "igh in vitamin  source of igh 9h in vitamin\nhigh in bit  folate protein gitar is al azkns\nron\n a oe  an\nae be \n\nyransfat added cholestero\nn preservatives naturally\nl cholesterol fr\n  aad oe \ne multigr",
+    "extraction_success": true,
+    "extracted_ingredients_count": 19,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "sulfite"
+    ],
+    "full_ocr_text": "igh in Vitamin ¢ Source of igh 9h in Vitamin\nHigh in Bit & Folate Protein \"gitar is al azkns\nron\n\" a oe « an\nae Be \"\n<\nYrans-fat Added Cholestero\nn Preservatives (Naturally\n| Cholesterol fr\n— = aad oe =\n=e: MULTIGRAIN MIX (66%) (CORN GRITS [18 WHEAT | ih\nMeee ea BARLEY (1 ROLLED OATS 1 RaGi | Mead da\na: fe bere co RICE FLOUR, CORN MEAL, WHEAT FLOUR’ | |TOTAL NUMBER C\nMise NDIED @IDRY FRUITS, NUTS 8 SEEDS (21%) {CANDIED | SERVING PER 10¢\nW MAEM RA SINS (4.5%), ALMONDS (3.5%), PUMPKIN SEEDS eile\nioe CANDICO CRANBERRY (3), BLACK CURRANTS (5%)\nRE REAL EXTRACT OLIGOFRUCTOSE, WHEAT BRAN, ENERGY\nSN aED SALT COCOA SOLIDS, VITAMINS. COLOURS (INS 140, ENERGY FROM FA7\nIScIsbd, FLAVOURS (NATURE IDENTICAL & ARTIFICIAL (COCONUT) east ear\nJOXIDANT (INS 307b) AND MINERAL. SATURATED FATTY\n| TLERCEN DECLARATION: CONTAINS WHEAT BARLEY OATSNUT ) i aryoay\n' (ALMONDS), SULPHITE. MAY CONTAIN OTHER NUTS au DOLYUNSATURATE:\n\"SISED ON PERCENTAGE OF INGREDIENTS USED ATTHETIME | oa yc earryagin\nFaRUFAGTURE OF FOOD THIS MAY VARIOUSINGREDIENTS. [CHOLESTEROL :\nNUON WY Vay PER PACK. FOR BEST PRODUCT TOTAL CARBORYD\ni) SOERENCE,MiX WELL BEFORE BORING sage as Speco\noa HANUEACTURING aseao ts SEE BELOW: OE WHICH DIETAR?\nwep ARACTER OF THE BA EN TE ADDRESS| |°\n— \\ ore BY: (1) KELLOGG ND PLOTNO.L2&L3, | OTN\n— TGGAMDC big RAIGAD, MAHARASHTRA ao 2ey,| (SOM\n| DERUICENSE OF KELLOGG COMPANY BATTLE jae\nMICHIGAN, USA, TRADE MARK OWN . cata FE\n= THIAMINE (WIT 8\n_—— es ENT\nwire No. 10013022002 cw TBS\nMASH ecg INDIA PVT. LTD., 1355, CASH! DAL NIACIN (1S\n\\ BARTON 27, SRICITY, SATYAVEDY Mee | [MITAMINES\nSCT, ANDHRA PRADESH - ara\n1 ViTAD\n® SK) fssai 16 FOLATE\ntlONS FAPORONMAE |\nnei FOM Dy R SUNLIGHT\nRange The\nRr, \"AAIARQDUCT ITO A CLEAN, pRY AND NET We\n‘i i Ay ]HE Pack RY, HYGIENIC\nTENE OURO SKIN A COOL, D RS TS:\nSIGIR NON CEC eo semve, | Pee\nSAAOAANO EXPOSURE TO AIR MAY vce, | | #bansiT ANA\nED \\ SAYS Fon nest F000 EXPERPYAF 37,0\nme\n"
+  },
+  {
+    "filename": "sample2.jpg",
+    "timestamp": "2025-12-12 12:11:07",
+    "ocr_snippet": ", ae\ni  es , ied  y\nper per serve 56 cep\nenergy kan ioo g lis 8\nprotein a 4o7  al\nsaturated fat 2   se\n trans fat gh o o \n cholesterol mg rie sa\ncarbohydrate g 685 2a \ntotal sugars a tg 7   \nadded sug",
+    "extraction_success": true,
+    "extracted_ingredients_count": 3,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten"
+    ],
+    "full_ocr_text": ", ae\ni ‘ es , <ied  Y\nPER PER SERVE 5¢6 cep\nENERGY (kan 100 g LIS 8%\nPROTEIN (@) 407 — al\n__SATURATED FAT (2) ~ = Se\n— TRANS FAT gh 0 0% =\n__ CHOLESTEROL (mg) rie Sa\nCARBOHYDRATE (g) 685 2A __&§\nTOTAL SUGARS (@) Tg 7 — _ &\n___ADDED suGaRS @ 0 0 os i\ng CU DIETARY FBRE(@) toe\n_ SOLUBLE FIBRE (2) ee 15\n_ INSOLUBLE FIBRE (gy Suits oe\nMAGNESIUM (mg) 106 42.4\nSODIUM (mg) Te 38 0% )\naid. Ek oe 08\nAPPROXIMATE VALUES”\nWGREDIET ROLLED OAT FLAKES~\nN ADVICE: MAY CONTAIN Y.\nMK or MAY CONTAIN WHEAT: BARLE\noy PRIVATE LIMITET ROLLED OATS\nJSS (\nMKT | (( NO. 1001406400043\nMEG. BY: FOR MANUFACTURER'S DETAL SEE FIRS] pe\n10 CHARAC TET f i NO. AND B \\\nTV py \\ f 4 ONS FYI. LTE ‘\n"
+  },
+  {
+    "filename": "sample3.jpg",
+    "timestamp": "2025-12-12 12:11:08",
+    "ocr_snippet": "crush\ningredients sugar, orange juice 27,\nwater, acidity regulator citric acid,\nthickener pectin, preservative ins224\ncontains permitted synthetic food\ni colours insiio, insi22  added\nflavours natural",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sulfite"
+    ],
+    "full_ocr_text": "CRUSH\nINGREDIENTS: SUGAR, ORANGE JUICE (27%),\nWATER, ACIDITY REGULATOR (CITRIC ACID),\nTHICKENER (PECTIN), PRESERVATIVE (INS-224)\nCONTAINS PERMITTED SYNTHETIC FOOD\ni COLOURS (INS-110, INS-122) & ADDED\nFLAVOURS- NATURAL, NATURE IDENTICAL &\nARTIFICIAL FLAVOURING SUBSTANCES\n(ORANGE)\nCONTAINS SULPHITES\n‘\nNUTRITIONAL INFORMATION*\nSERVING SIZE 530ml, NO. OF SERVES - 11\nPER 100 g (% RDA\"* PER SERVE):\nENERGY - 226 keall (4.25%),\nPROTEIN - 0.18 g, CARBOHYDRATE - 56.47 9,\nTOTAL SUGARS - $5.68 g, .\nADDED SUGARS - 53.33 g (40.53%),\nFAT - 0 g (0.00%), SODIUM - 19 mg (0.04%).\n“APPROXIMATE VALUES **VALUES BASED ON\n2000 Kcal DiET FOR AN AVERAGE ADULT\n‘ MFG, BY & CONSUMER CARE:\n; MAPRO FOODS PVT. LTD.\n122, SHENDURJANE, WAI (MH) 41555¢\n& | © +91 8805004000\n@&% connect@mapro.com\n— ~-8\" 901044 431138 '\ni +, be » ,\nail ’ im\na 8.\nwe\n7\n"
+  },
+  {
+    "filename": "sample4.jpg",
+    "timestamp": "2025-12-12 12:11:09",
+    "ocr_snippet": "pc dryfruit kachori o \n ingredients refined wheat flour maida cashewnut, sugar, rai\nnd, ghee, chickpea flour, refined groundnut oil, lodised sait\n spices  condiments\nnutritional value approx, ioo9\nnet",
+    "extraction_success": true,
+    "extracted_ingredients_count": 7,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "milk",
+      "peanut"
+    ],
+    "full_ocr_text": "Pc Dryfruit Kachori 0 .\n: ingredients: Refined Wheat Flour (Maida) Cashewnut, Sugar, Rai\nnd, Ghee, Chickpea Flour, Refined Groundnut Oil, lodised Sait\n_ Spices & Condiments.\nNutritional Value (Approx, 1009)\nNet Weight 500g\n| Eneraytkcal) 478 ? Batch No 26022786\n‘ Protain(g) a #\nBe | tow carbo) aa » |Mfg Date 99-25 ‘\nTotal Sugar(g) tN\nant 26 5 Use By 14-26\notal Fata) 20.5 19\nSatFatg) ; K MRP nA 2\nTrans Fat (9) = ut all —\npomings 88 b Unit Salo As.0.619\ning 879.9 Bir a\not all\nAllergen Into: ;\nContaing Wheat & Nuts Processed In A Ui! Where Milk & S°\nete Hendiea\nIn .\nSian Snacks And Savauries Products 2\n/Mkt By :\ne i. Corner Pvt. Ltd.\nQ Cobete Road No 31, Wagle Estate, Thane (we\nhk 400 604) cc : 022 6289 0000\nam PO MSreare@n,oshantcorne: com 1378\nSshantcorne, Com | Bsal Lic No.: 1001%\nREDMI 12 5G 12/12/2025 09:17\n"
+  },
+  {
+    "filename": "sample5.jpg",
+    "timestamp": "2025-12-12 12:11:09",
+    "ocr_snippet": ",   \n4   t py  3  j pow sn  \nhee ootott  re\n flin puored 66 on, whey\nwe \nbupjoed jo ayep a4, woi4 seg cy 2ioi99 i8o8\n e  a fa\nv, yes pasipol pue\n3 uapmog sooyounly 3i8\nj peer fd  sadidg sseing ebro un",
+    "extraction_success": true,
+    "extracted_ingredients_count": 6,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ],
+    "full_ocr_text": ", \" ~ »\n“4 \\ + t Py . 3 ; J POW Sn ) .\nhee “OOTOTT : re\n: Flin PUORED ‘66 on, whey\nwe ‘\nBupjoed jo ayep a4, WOI4 Seg cy 210199 1808\n*{ e < a FA\nV, yes pasipol pue\n3 “UaPMOg sooyounly “318\nj Peer Fd : ‘sadidg sseing ebro uno\n¥ ‘OIRS ‘soyela wag “HN\n{sores ye Penson) *e4Od ‘Sas 4\\e!\nIng § Ey\nNd smog ve 2\nog * HEM} syq age aiqyps\na Fa 118\nPLL isu BEindhigs oun\na : , |\n+ BUDO OF so Aupso jie e r\nWe SLING SON) . 4\n7 : ¥ , ~ 4\n; > sv = mi a\nYr # 2h\ny. s ‘\n"
+  },
+  {
+    "filename": "sample6.jpg",
+    "timestamp": "2025-12-12 12:11:10",
+    "ocr_snippet": "t we  ,\nne sutie\nia \nmw of vikas l\n foods\nmaska butter\nl ngredients  wheat flour, salt yeast,\nedible oil, vanas pati oil, milk powder, i\npfrmitted cl ass il preservatives\nnet wt  ben\nwhen packed  5 \nm",
+    "extraction_success": true,
+    "extracted_ingredients_count": 9,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "wheat_gluten"
+    ],
+    "full_ocr_text": "\\ . ®t we / =,\nne sutie\nia ;\nMw. of( Vikas |\n~ FOODS\nMaska Butter\n| NGREDIENTS : WHEAT FLOUR, SALT. YEAST,\nEDIBLE OIL, VANAS PATI OIL, MILK POWDER, i\nPFRMITTED Cl ASS Il PRESERVATIVES\nNet Wt : Ben\nWhen Packed) / 5 :\nMax. Retail Price . Rs. .\n(Inet. of all Taxes) ss\nNate of Mfg, : : Fae\nj ; ™ EOn/\nCorrrmsay, M mp 4 St Mats Neary +\n‘e ==\nco . .\nS EDMII2 56 y . 1271212088015\n"
+  },
+  {
+    "filename": "sample7.jpg",
+    "timestamp": "2025-12-12 12:11:10",
+    "ocr_snippet": "y\n oe\n4 bs ae\naa\n n pow i, 5\nmace, clove, black  ray 4\ndried fenugr ang l\n black gram, henptl r h\ngram, compounded \nasafoetida, lodized salt e\nond turmeric,\nl allergen information \nhey canin ms i\nsan ",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "LOW",
+    "detected_allergens": [],
+    "full_ocr_text": "‘ - /Y.\n¢~ oe\n4 Bs Ae\naa?\n. N Pow i, 5\nMace, Clove, Black — ray 4\nDried Fenugr ang |\n~ Black gram, henptl r\\ H\ngram, Compounded :\n‘Asafoetida, lodized Salt \\e\nond Turmeric,\n| ALLERGEN INFORMATION :\n‘Hey Canin Ms i\nSan fo Recipes\n| (ebseee\nWine cel bios\nopened\nRoe\nneo so ad J mall 12/12/2025 09:15\n"
+  },
+  {
+    "filename": "sample8.jpg",
+    "timestamp": "2025-12-12 12:11:11",
+    "ocr_snippet": "pecial shev chivada\nm  ritkawalij  px\n f f bi 7\nar\na a a  \nwngredients  gram split flour, rice flake , ,\n refined edible vegetable oil, peanuts, \n chilli powder, turmeric powder  lodised sait a\n, f ar",
+    "extraction_success": true,
+    "extracted_ingredients_count": 12,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ],
+    "full_ocr_text": "- pecial Shev Chivada\nm= —— Ritkawalij —— PX\n= F f bi 7~*\nar.\na a a — =\nWNGREDIENTS : Gram Split Flour, Rice Flake: , ,\n~ Refined Edible Vegetable Oil, Peanuts, '\n— Chilli Powder, Turmeric Powder & lodised Sait. +A\n, f ar se a ia >.\n‘ = ee oe - .\nWee f _ ~~‘.\n‘a. DA Ss a) Tey ®) i\nay hee Te FE\ni| q #, {x . f a Sie es d |\nNUTRITIONAL INFORMA TON a\n(Per 100g) Approx. é\nEnergy 583.5 Kcal )\nProtein 9.929\nCarbohydrates 37.79\nFats 4479) ig\nculated Values, Source : NIN, Nutritive Value of , e\n9)\n, Spec a ‘ ~\nREDM ” special baeny’ a 12/12/2025 aon\n© Special I y\n"
+  },
+  {
+    "filename": "sample9.jpg",
+    "timestamp": "2025-12-12 12:11:12",
+    "ocr_snippet": "a ty le\n5 9o6oio 5oi4i9 omen\nnan ann ay rra  \ningredient\ncorn wea gb, edble vegetable onthins one 8 more of the folding\ndaimolen rce bran, corn, cottonseed, seasonng edible common sal, sugar\nwaltooent",
+    "extraction_success": true,
+    "extracted_ingredients_count": 19,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "corn",
+      "wheat_gluten"
+    ],
+    "full_ocr_text": "a Ty le\n5 /906010' 501419\" omen\nNAN ANN AY RRA “<< (\nINGREDIENT:\nCORN WEA GB), EDBLE VEGETABLE. (ONTHINS ONE 8 MORE OF THE FOLDING\nDAIMOLEN RCE BRAN, CORN, COTTONSEED), **SEASONNG [EDIBLE COMMON SAL, SUGAR\nWALTOOENTRN, SARC, DEHYDRATED VEGETABLE POWDER (ONION, GARLC, CHEESE\nPOWDER (074, MIX SOUS (03%), CHUL! PONDER (13), PEPPER POWDER. FLAVOUR\nFAMARCER NS 62, NS 3 WS 2) SABIE (NS 70), EULER 4), ACI\nREGULATOR (NS 330), In (GOYA), ANTICAKING AGENT (INS\n1NS341 (I), FLAVOUR (NATURAL & NATURE L FLAVDURING SUBSTANCES))\nAS FLAVOURING & SEASONING AGENT 4\nTHE oPRIGS NESE CHLCNTANS ODED MONESODUM LIN -\nHe NNN OR MTS LON MONTHS AX EST WN\nME OURS |PROREA NOM SCS: AR\nAEGEN AE OTANS CHEE MUNDO 5M\nPROT OF NDA\n: SON\nNUTRITIONAL INFORMATION® per 1003 | “Sayin\n= sae »\n{ARGOHYORATES ay |\nTOTAL SUGARS j\nan 40g\nTGUA ITA ER my 7\n“OMA\nTRANGIA, rr\nREDM! GTO 3 '\norn ih werrn | 4 A lime\n"
+  },
+  {
+    "filename": "sample1.jpg",
+    "timestamp": "2025-12-12 12:11:12",
+    "ocr_snippet": "wo\ncontent more th\nyntent more the\ngredients\ncoriander, cumin, ct\nturmeric, black pepper\ngarlic, dried ginger\nmace, green corda\n bengal gram, black gia\nnutmeg, fenugreek\ncassia bark taj, \ncaraway, sta",
+    "extraction_success": true,
+    "extracted_ingredients_count": 5,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "mustard"
+    ],
+    "full_ocr_text": "wo\ncontent more th\nyntent more the\n(GREDIENTS\nCoriander, Cumin, Ct\nTurmeric, Black Pepper\nGarlic, Dried Ginger\nMace, Green Corda\n© Bengal Gram, Black gia\nNutmeg, Fenugreek\nCassia Bark (Taj), (\nCaraway, Star An\na Dried Fenugreek |\nlodized Salt, Compounded\nAsafoetida, Mustard\n_— and Black Cardamom a ll\nALLERGEN INFORMATION\nContains Mustard\nScan for Recipes\ny,\n@ ; ‘\nKeep it in o cool, hygienic\nand dry place. Once opened\n< PY keep in an airtight container.)\n, 7 Packed in India\n"
+  },
+  {
+    "filename": "sample10.jpg",
+    "timestamp": "2025-12-12 12:11:13",
+    "ocr_snippet": "a o\ned expiry date\na keep away from direct sunlight  heat\nem l aana\na alooccio 5oo27 l\n2yccueon me\nfi i\noe\n2 5 seasoning ment  a\nress resem\n3 allergen advice coatains peanut\nproduct of owa \n hutrition",
+    "extraction_success": true,
+    "extracted_ingredients_count": 1,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ],
+    "full_ocr_text": "@ 0.\ned EXPIRY DATE:\na KEEP AWAY FROM DIRECT SUNLIGHT & HEAT\nem | AANA)?\n@ alooccio 50027 |\n2\\yccueon Me\nfi i\noe\n2 5 SEASONING MENT - a\nress resem\n3 ALLERGEN ADVICE: COATAINS PEANUT.\nPRODUCT OF OWA :\n: HUTRITIONALINFORMATION® pen 1009\na ENERGY i |\n= PROTEN uw _\nae \"| ’ :\nrg\n} P\n"
+  },
+  {
+    "filename": "sample11.jpg",
+    "timestamp": "2025-12-12 12:11:13",
+    "ocr_snippet": "nll\n ya     3\n  ya\nf i yr i  x p\n   , a til 4\n5  nolan shatis 6 savouries j \nee  el   24\naye mal information  pen i895 nf\nrabovorate oo\na   aa\n5g",
+    "extraction_success": true,
+    "extracted_ingredients_count": 2,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sesame"
+    ],
+    "full_ocr_text": "nll\n: ya > — ‘ . 3\n\\ \" ya\nf 1. yr i - x. P\n'? ‘ : , a til 4\n5 } NOLAN SHATIS 6 SAVOURIES J ©\nee = el = _ 24\naye\" MAL INFORMATION / pen 1895 nf\nRABOVORATE oo\n“a. “ ‘ aa\n5G\n"
+  },
+  {
+    "filename": "sample12.jpg",
+    "timestamp": "2025-12-12 12:11:14",
+    "ocr_snippet": "al \n\ningredients l\ncre edble vegetable on contans one or more the follomings pies i\nao seasoming sugar ble common salt maltodextrn sees 6 oe \nchilli cumin, clove, cinnamon, dehydrated vegetable powder",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "peanut"
+    ],
+    "full_ocr_text": "al =\n\nINGREDIENTS: |\ncre EDBLE VEGETABLE ON. (CONTANS ONE. OR MORE THE FOLLOMINGS PIES i\nao **SEASOMING (SUGAR BLE COMMON SALT MALTODEXTRN SEES 6 OE /\n(CHILLI CUMIN, CLOVE, CINNAMON), DEHYDRATED VEGETABLE POWDER Prat’ GARI \\\nACIDITY REGULATOR (NS 296, INS 30), ANTICAKING AGENT (INS sl FLAVOUR\n\n1NS 63), FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SU TANCES), f\n+ AS FLAVOURING & SEASONING AGENT ‘ j\nPOTATO WAFERS wa\nREAD SURES POE F000 NDAN 5 SAVOURIES |\nALLERGEN ADVICE: MAY CONTAIN PEANUT.\n\nPRODUCT OF INDIA 4\n\nNUTRITIONAL INFORMATION\" =) PER 100g E ;\n\nrr min! 4\n\nmare 50]\n\nCARBOHYDRATES Y 5359\n\na, =\n\nJOVALOFIARY FIBER a :\n\nTOTAL FAI ee : ; '\n\nSALURAYE — wy r\\s\nREDMI 12 5G a 7 5 j or\n"
+  },
+  {
+    "filename": "sample13.jpg",
+    "timestamp": "2025-12-12 12:11:15",
+    "ocr_snippet": "product category plain meme l \nchocolate ee f\ncl a\ningredients cocoa mass, frag ica l 3o8i\nsugar, cocoa butter, a a  \nbohydrate 6 l we l \ntotal cocoa content 7o ffotalfatig l 4oiii\ncontains soy satura",
+    "extraction_success": true,
+    "extracted_ingredients_count": 5,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ],
+    "full_ocr_text": "Product Category: Plain meme | }-\nChocolate. “ee F\nCL a\nIngredients: Cocoa mass’, [Frag ica) | 3081\nSugar, Cocoa butter’, a a . &\nbohydrate (6) | we | -\n\"Total Cocoa Content: 70% ffotalfatig) | 401-11\nContains Soy. Saturated Fat(g) | 25.8 |\nTreenut and Milk. Sodium(ng) | 64 | 0\n“Reference Intake of an average adult (200\nApprox. no. of serves in the pack: 5.5\nManufactured By: Mars International India Pvt. Ltd., fat\n4658-A, No. 21, Ansari Road, Lic. No. 1001201100\nDarya Ganj, New Delhi - 110 002.\nAt: Plot No. I-09/11A, Khed City Industrial Area, At PO Nimgaon, Taluka |\nDistrict Pune - 410 505, Maharashtra, India. Lic. No. 10016022004739\nFor packaging location refer to the last alphabet of the batch cod\nA: Mars International India Pvt. Ltd., Plot No. |-09/11A, Khed City\nindustrial Area, At PO Nimgaon, Taluka Khed, District Pune - 410 5\nMaharashtra, India. Lic. No. 10016022004739\nB: Ameya Plastics, Gat No. 261/5 & 261/6, Somwanshi Industrial\nEstate, At/Post Chakan, Village Kharabwadi, Taluka Khed, Dist. Pur\nMaharashtra - 410 501. Lic. No. 10020022011413 ,\nFor consumer queries, feedback or complain\n| write to the manufacturer's address above,\nemail at: mars.india.chocolates@effem.com\nor call at 1800 889 2121.\naN 18 22\nMp | PAP 12/4 272025 412130! %\nj | ie\n"
+  },
+  {
+    "filename": "sample14.jpg",
+    "timestamp": "2025-12-12 12:11:16",
+    "ocr_snippet": "igh in vitamin  source of igh 9h in vitamin\nhigh in bit  folate protein gitar is al azkns\nron\n a oe  an\nae be \n\nyransfat added cholestero\nn preservatives naturally\nl cholesterol fr\n  aad oe \ne multigr",
+    "extraction_success": true,
+    "extracted_ingredients_count": 19,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "sulfite"
+    ],
+    "full_ocr_text": "igh in Vitamin ¢ Source of igh 9h in Vitamin\nHigh in Bit & Folate Protein \"gitar is al azkns\nron\n\" a oe « an\nae Be \"\n<\nYrans-fat Added Cholestero\nn Preservatives (Naturally\n| Cholesterol fr\n— = aad oe =\n=e: MULTIGRAIN MIX (66%) (CORN GRITS [18 WHEAT | ih\nMeee ea BARLEY (1 ROLLED OATS 1 RaGi | Mead da\na: fe bere co RICE FLOUR, CORN MEAL, WHEAT FLOUR’ | |TOTAL NUMBER C\nMise NDIED @IDRY FRUITS, NUTS 8 SEEDS (21%) {CANDIED | SERVING PER 10¢\nW MAEM RA SINS (4.5%), ALMONDS (3.5%), PUMPKIN SEEDS eile\nioe CANDICO CRANBERRY (3), BLACK CURRANTS (5%)\nRE REAL EXTRACT OLIGOFRUCTOSE, WHEAT BRAN, ENERGY\nSN aED SALT COCOA SOLIDS, VITAMINS. COLOURS (INS 140, ENERGY FROM FA7\nIScIsbd, FLAVOURS (NATURE IDENTICAL & ARTIFICIAL (COCONUT) east ear\nJOXIDANT (INS 307b) AND MINERAL. SATURATED FATTY\n| TLERCEN DECLARATION: CONTAINS WHEAT BARLEY OATSNUT ) i aryoay\n' (ALMONDS), SULPHITE. MAY CONTAIN OTHER NUTS au DOLYUNSATURATE:\n\"SISED ON PERCENTAGE OF INGREDIENTS USED ATTHETIME | oa yc earryagin\nFaRUFAGTURE OF FOOD THIS MAY VARIOUSINGREDIENTS. [CHOLESTEROL :\nNUON WY Vay PER PACK. FOR BEST PRODUCT TOTAL CARBORYD\ni) SOERENCE,MiX WELL BEFORE BORING sage as Speco\noa HANUEACTURING aseao ts SEE BELOW: OE WHICH DIETAR?\nwep ARACTER OF THE BA EN TE ADDRESS| |°\n— \\ ore BY: (1) KELLOGG ND PLOTNO.L2&L3, | OTN\n— TGGAMDC big RAIGAD, MAHARASHTRA ao 2ey,| (SOM\n| DERUICENSE OF KELLOGG COMPANY BATTLE jae\nMICHIGAN, USA, TRADE MARK OWN . cata FE\n= THIAMINE (WIT 8\n_—— es ENT\nwire No. 10013022002 cw TBS\nMASH ecg INDIA PVT. LTD., 1355, CASH! DAL NIACIN (1S\n\\ BARTON 27, SRICITY, SATYAVEDY Mee | [MITAMINES\nSCT, ANDHRA PRADESH - ara\n1 ViTAD\n® SK) fssai 16 FOLATE\ntlONS FAPORONMAE |\nnei FOM Dy R SUNLIGHT\nRange The\nRr, \"AAIARQDUCT ITO A CLEAN, pRY AND NET We\n‘i i Ay ]HE Pack RY, HYGIENIC\nTENE OURO SKIN A COOL, D RS TS:\nSIGIR NON CEC eo semve, | Pee\nSAAOAANO EXPOSURE TO AIR MAY vce, | | #bansiT ANA\nED \\ SAYS Fon nest F000 EXPERPYAF 37,0\nme\n"
+  },
+  {
+    "filename": "sample2.jpg",
+    "timestamp": "2025-12-12 12:11:17",
+    "ocr_snippet": ", ae\ni  es , ied  y\nper per serve 56 cep\nenergy kan ioo g lis 8\nprotein a 4o7  al\nsaturated fat 2   se\n trans fat gh o o \n cholesterol mg rie sa\ncarbohydrate g 685 2a \ntotal sugars a tg 7   \nadded sug",
+    "extraction_success": true,
+    "extracted_ingredients_count": 3,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten"
+    ],
+    "full_ocr_text": ", ae\ni ‘ es , <ied  Y\nPER PER SERVE 5¢6 cep\nENERGY (kan 100 g LIS 8%\nPROTEIN (@) 407 — al\n__SATURATED FAT (2) ~ = Se\n— TRANS FAT gh 0 0% =\n__ CHOLESTEROL (mg) rie Sa\nCARBOHYDRATE (g) 685 2A __&§\nTOTAL SUGARS (@) Tg 7 — _ &\n___ADDED suGaRS @ 0 0 os i\ng CU DIETARY FBRE(@) toe\n_ SOLUBLE FIBRE (2) ee 15\n_ INSOLUBLE FIBRE (gy Suits oe\nMAGNESIUM (mg) 106 42.4\nSODIUM (mg) Te 38 0% )\naid. Ek oe 08\nAPPROXIMATE VALUES”\nWGREDIET ROLLED OAT FLAKES~\nN ADVICE: MAY CONTAIN Y.\nMK or MAY CONTAIN WHEAT: BARLE\noy PRIVATE LIMITET ROLLED OATS\nJSS (\nMKT | (( NO. 1001406400043\nMEG. BY: FOR MANUFACTURER'S DETAL SEE FIRS] pe\n10 CHARAC TET f i NO. AND B \\\nTV py \\ f 4 ONS FYI. LTE ‘\n"
+  },
+  {
+    "filename": "sample3.jpg",
+    "timestamp": "2025-12-12 12:11:17",
+    "ocr_snippet": "crush\ningredients sugar, orange juice 27,\nwater, acidity regulator citric acid,\nthickener pectin, preservative ins224\ncontains permitted synthetic food\ni colours insiio, insi22  added\nflavours natural",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sulfite"
+    ],
+    "full_ocr_text": "CRUSH\nINGREDIENTS: SUGAR, ORANGE JUICE (27%),\nWATER, ACIDITY REGULATOR (CITRIC ACID),\nTHICKENER (PECTIN), PRESERVATIVE (INS-224)\nCONTAINS PERMITTED SYNTHETIC FOOD\ni COLOURS (INS-110, INS-122) & ADDED\nFLAVOURS- NATURAL, NATURE IDENTICAL &\nARTIFICIAL FLAVOURING SUBSTANCES\n(ORANGE)\nCONTAINS SULPHITES\n‘\nNUTRITIONAL INFORMATION*\nSERVING SIZE 530ml, NO. OF SERVES - 11\nPER 100 g (% RDA\"* PER SERVE):\nENERGY - 226 keall (4.25%),\nPROTEIN - 0.18 g, CARBOHYDRATE - 56.47 9,\nTOTAL SUGARS - $5.68 g, .\nADDED SUGARS - 53.33 g (40.53%),\nFAT - 0 g (0.00%), SODIUM - 19 mg (0.04%).\n“APPROXIMATE VALUES **VALUES BASED ON\n2000 Kcal DiET FOR AN AVERAGE ADULT\n‘ MFG, BY & CONSUMER CARE:\n; MAPRO FOODS PVT. LTD.\n122, SHENDURJANE, WAI (MH) 41555¢\n& | © +91 8805004000\n@&% connect@mapro.com\n— ~-8\" 901044 431138 '\ni +, be » ,\nail ’ im\na 8.\nwe\n7\n"
+  },
+  {
+    "filename": "sample4.jpg",
+    "timestamp": "2025-12-12 12:11:18",
+    "ocr_snippet": "pc dryfruit kachori o \n ingredients refined wheat flour maida cashewnut, sugar, rai\nnd, ghee, chickpea flour, refined groundnut oil, lodised sait\n spices  condiments\nnutritional value approx, ioo9\nnet",
+    "extraction_success": true,
+    "extracted_ingredients_count": 7,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "milk",
+      "peanut"
+    ],
+    "full_ocr_text": "Pc Dryfruit Kachori 0 .\n: ingredients: Refined Wheat Flour (Maida) Cashewnut, Sugar, Rai\nnd, Ghee, Chickpea Flour, Refined Groundnut Oil, lodised Sait\n_ Spices & Condiments.\nNutritional Value (Approx, 1009)\nNet Weight 500g\n| Eneraytkcal) 478 ? Batch No 26022786\n‘ Protain(g) a #\nBe | tow carbo) aa » |Mfg Date 99-25 ‘\nTotal Sugar(g) tN\nant 26 5 Use By 14-26\notal Fata) 20.5 19\nSatFatg) ; K MRP nA 2\nTrans Fat (9) = ut all —\npomings 88 b Unit Salo As.0.619\ning 879.9 Bir a\not all\nAllergen Into: ;\nContaing Wheat & Nuts Processed In A Ui! Where Milk & S°\nete Hendiea\nIn .\nSian Snacks And Savauries Products 2\n/Mkt By :\ne i. Corner Pvt. Ltd.\nQ Cobete Road No 31, Wagle Estate, Thane (we\nhk 400 604) cc : 022 6289 0000\nam PO MSreare@n,oshantcorne: com 1378\nSshantcorne, Com | Bsal Lic No.: 1001%\nREDMI 12 5G 12/12/2025 09:17\n"
+  },
+  {
+    "filename": "sample5.jpg",
+    "timestamp": "2025-12-12 12:11:18",
+    "ocr_snippet": ",   \n4   t py  3  j pow sn  \nhee ootott  re\n flin puored 66 on, whey\nwe \nbupjoed jo ayep a4, woi4 seg cy 2ioi99 i8o8\n e  a fa\nv, yes pasipol pue\n3 uapmog sooyounly 3i8\nj peer fd  sadidg sseing ebro un",
+    "extraction_success": true,
+    "extracted_ingredients_count": 6,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ],
+    "full_ocr_text": ", \" ~ »\n“4 \\ + t Py . 3 ; J POW Sn ) .\nhee “OOTOTT : re\n: Flin PUORED ‘66 on, whey\nwe ‘\nBupjoed jo ayep a4, WOI4 Seg cy 210199 1808\n*{ e < a FA\nV, yes pasipol pue\n3 “UaPMOg sooyounly “318\nj Peer Fd : ‘sadidg sseing ebro uno\n¥ ‘OIRS ‘soyela wag “HN\n{sores ye Penson) *e4Od ‘Sas 4\\e!\nIng § Ey\nNd smog ve 2\nog * HEM} syq age aiqyps\na Fa 118\nPLL isu BEindhigs oun\na : , |\n+ BUDO OF so Aupso jie e r\nWe SLING SON) . 4\n7 : ¥ , ~ 4\n; > sv = mi a\nYr # 2h\ny. s ‘\n"
+  },
+  {
+    "filename": "sample6.jpg",
+    "timestamp": "2025-12-12 12:11:19",
+    "ocr_snippet": "t we  ,\nne sutie\nia \nmw of vikas l\n foods\nmaska butter\nl ngredients  wheat flour, salt yeast,\nedible oil, vanas pati oil, milk powder, i\npfrmitted cl ass il preservatives\nnet wt  ben\nwhen packed  5 \nm",
+    "extraction_success": true,
+    "extracted_ingredients_count": 9,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "wheat_gluten"
+    ],
+    "full_ocr_text": "\\ . ®t we / =,\nne sutie\nia ;\nMw. of( Vikas |\n~ FOODS\nMaska Butter\n| NGREDIENTS : WHEAT FLOUR, SALT. YEAST,\nEDIBLE OIL, VANAS PATI OIL, MILK POWDER, i\nPFRMITTED Cl ASS Il PRESERVATIVES\nNet Wt : Ben\nWhen Packed) / 5 :\nMax. Retail Price . Rs. .\n(Inet. of all Taxes) ss\nNate of Mfg, : : Fae\nj ; ™ EOn/\nCorrrmsay, M mp 4 St Mats Neary +\n‘e ==\nco . .\nS EDMII2 56 y . 1271212088015\n"
+  },
+  {
+    "filename": "sample7.jpg",
+    "timestamp": "2025-12-12 12:11:20",
+    "ocr_snippet": "y\n oe\n4 bs ae\naa\n n pow i, 5\nmace, clove, black  ray 4\ndried fenugr ang l\n black gram, henptl r h\ngram, compounded \nasafoetida, lodized salt e\nond turmeric,\nl allergen information \nhey canin ms i\nsan ",
+    "extraction_success": true,
+    "extracted_ingredients_count": 8,
+    "risk_level": "LOW",
+    "detected_allergens": [],
+    "full_ocr_text": "‘ - /Y.\n¢~ oe\n4 Bs Ae\naa?\n. N Pow i, 5\nMace, Clove, Black — ray 4\nDried Fenugr ang |\n~ Black gram, henptl r\\ H\ngram, Compounded :\n‘Asafoetida, lodized Salt \\e\nond Turmeric,\n| ALLERGEN INFORMATION :\n‘Hey Canin Ms i\nSan fo Recipes\n| (ebseee\nWine cel bios\nopened\nRoe\nneo so ad J mall 12/12/2025 09:15\n"
+  },
+  {
+    "filename": "sample8.jpg",
+    "timestamp": "2025-12-12 12:11:20",
+    "ocr_snippet": "pecial shev chivada\nm  ritkawalij  px\n f f bi 7\nar\na a a  \nwngredients  gram split flour, rice flake , ,\n refined edible vegetable oil, peanuts, \n chilli powder, turmeric powder  lodised sait a\n, f ar",
+    "extraction_success": true,
+    "extracted_ingredients_count": 12,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ],
+    "full_ocr_text": "- pecial Shev Chivada\nm= —— Ritkawalij —— PX\n= F f bi 7~*\nar.\na a a — =\nWNGREDIENTS : Gram Split Flour, Rice Flake: , ,\n~ Refined Edible Vegetable Oil, Peanuts, '\n— Chilli Powder, Turmeric Powder & lodised Sait. +A\n, f ar se a ia >.\n‘ = ee oe - .\nWee f _ ~~‘.\n‘a. DA Ss a) Tey ®) i\nay hee Te FE\ni| q #, {x . f a Sie es d |\nNUTRITIONAL INFORMA TON a\n(Per 100g) Approx. é\nEnergy 583.5 Kcal )\nProtein 9.929\nCarbohydrates 37.79\nFats 4479) ig\nculated Values, Source : NIN, Nutritive Value of , e\n9)\n, Spec a ‘ ~\nREDM ” special baeny’ a 12/12/2025 aon\n© Special I y\n"
+  },
+  {
+    "filename": "sample9.jpg",
+    "timestamp": "2025-12-12 12:11:21",
+    "ocr_snippet": "a ty le\n5 9o6oio 5oi4i9 omen\nnan ann ay rra  \ningredient\ncorn wea gb, edble vegetable onthins one 8 more of the folding\ndaimolen rce bran, corn, cottonseed, seasonng edible common sal, sugar\nwaltooent",
+    "extraction_success": true,
+    "extracted_ingredients_count": 19,
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "corn",
+      "wheat_gluten"
+    ],
+    "full_ocr_text": "a Ty le\n5 /906010' 501419\" omen\nNAN ANN AY RRA “<< (\nINGREDIENT:\nCORN WEA GB), EDBLE VEGETABLE. (ONTHINS ONE 8 MORE OF THE FOLDING\nDAIMOLEN RCE BRAN, CORN, COTTONSEED), **SEASONNG [EDIBLE COMMON SAL, SUGAR\nWALTOOENTRN, SARC, DEHYDRATED VEGETABLE POWDER (ONION, GARLC, CHEESE\nPOWDER (074, MIX SOUS (03%), CHUL! PONDER (13), PEPPER POWDER. FLAVOUR\nFAMARCER NS 62, NS 3 WS 2) SABIE (NS 70), EULER 4), ACI\nREGULATOR (NS 330), In (GOYA), ANTICAKING AGENT (INS\n1NS341 (I), FLAVOUR (NATURAL & NATURE L FLAVDURING SUBSTANCES))\nAS FLAVOURING & SEASONING AGENT 4\nTHE oPRIGS NESE CHLCNTANS ODED MONESODUM LIN -\nHe NNN OR MTS LON MONTHS AX EST WN\nME OURS |PROREA NOM SCS: AR\nAEGEN AE OTANS CHEE MUNDO 5M\nPROT OF NDA\n: SON\nNUTRITIONAL INFORMATION® per 1003 | “Sayin\n= sae »\n{ARGOHYORATES ay |\nTOTAL SUGARS j\nan 40g\nTGUA ITA ER my 7\n“OMA\nTRANGIA, rr\nREDM! GTO 3 '\norn ih werrn | 4 A lime\n"
+  }
+]

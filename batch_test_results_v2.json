@@ -1,0 +1,250 @@
+[
+  {
+    "filename": "sample1.jpg",
+    "timestamp": "2025-12-12 12:47:37",
+    "ocr_snippet": "a l turmeric, black pepper, l\nbengal gram, black gram, \nofa  l keepin on oirtight container\naf packed in india ,",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample10.jpg",
+    "timestamp": "2025-12-12 12:47:38",
+    "ocr_snippet": ",  a , oa\n\nne l co evd a   \n, i keep away from d eee\n\n   7 i  i  4  al\n\n ru 8 hoo6o7o 5oo276 4\nate ee pw pace ic enero ee ee ae ity we   \npoem ae eee se os sey \neee l oe ee le je\noe ae pree oe le etre",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample11.jpg",
+    "timestamp": "2025-12-12 12:47:39",
+    "ocr_snippet": "oe or a  mnl nl  wn one a va ne\nae  ren cae\na epee oranges,\n\neo my  he a is ee ee  va\n\nve se   seine sy en a\n\nfa \ni",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample12.jpg",
+    "timestamp": "2025-12-12 12:47:40",
+    "ocr_snippet": "ron a an eget l\npapi pep hetae ie og 4a\nps ogg nes tf es wik 4\nso wss ss a\npotato 8 edible vegetable ol cont one or more of the followings palmolein,\ngroundnut seasoning sugar, e ible common salt, mal",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut",
+      "wheat_gluten",
+      "corn"
+    ]
+  },
+  {
+    "filename": "sample13.jpg",
+    "timestamp": "2025-12-12 12:47:44",
+    "ocr_snippet": "pmcroductamcategorymaplains yetntional pen ce\ngm a, le as i\n gules 2a, weiupel l mnegt ic aes it\n fflavounvanillaye seemeeememaesl oi2i 922is  manan l mz  aoe l ge\nhmcontalns soya l gees\ntreenutand mi",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "filename": "sample14.jpg",
+    "timestamp": "2025-12-12 12:47:49",
+    "ocr_snippet": "aes me ot fibre, qr in vitam\n sanat  in vitarnie protein loo   ian a\n ron oh   7 ok les ge a  at\nst cake j bie pao cholestera\n eae  in mix 663 rolled oats flour serving io\npao coo ie aa  lyperi\nte ien",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "corn",
+      "sulfite",
+      "fish",
+      "sesame"
+    ]
+  },
+  {
+    "filename": "sample2.jpg",
+    "timestamp": "2025-12-12 12:47:50",
+    "ocr_snippet": "ae l aitttional ge\nhe fo ser ze 4o st matigng   rs\nl ,  s ,   or save  rda  i\nenergy ticay  ioo, 6og perserve lo\n\n l total fat gy  we 4a pg\ngf jrans fat gy o o fos\n 4 cholesterol mg, gy gs  be\nets ico",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample3.jpg",
+    "timestamp": "2025-12-12 12:47:51",
+    "ocr_snippet": "l ,     \n l\nl orange a l\n  grush , l\n ingredients sugar, orange juice 27\nl    contains permitted synthetic food\n 3c  flavours natural, nature identical   a\n pe artificial flavouring substances \n  oran",
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sulfite"
+    ]
+  },
+  {
+    "filename": "sample4.jpg",
+    "timestamp": "2025-12-12 12:47:52",
+    "ocr_snippet": "pedryfruitkachori l\ni ingredients retined wheat flour malda, cashewnut, sugar, ral\nnd, ghee, chickpea flour, refined groundnut oll, lodised salt jo\n7 notidonel value adptoxiood yf cece ped mpeg o a ae",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "milk",
+      "peanut"
+    ]
+  },
+  {
+    "filename": "sample5.jpg",
+    "timestamp": "2025-12-12 12:47:53",
+    "ocr_snippet": "pah nee srt ethene bebe y ony te canceling eer aaned aoe\nloe lgb  polbvecolg von mld aws  ey\nsr nr , ole cat os a shee an ls\n abvageszes  voleve net\nuns oo ea uod reo c8 on eo\no 4g 3o9g sald ee et es ",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample6.jpg",
+    "timestamp": "2025-12-12 12:47:54",
+    "ocr_snippet": "et sie na rae ma o ne vey man i pie noe if wot  oy ur ae de an ee\nsen qa wee ne meant gus pies\nwary vi deena oe ms 8 2  a ee  canes os i , ne\nan ty mette mr cn st ran a ee  it idoog\nne on a nea wal py",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample7.jpg",
+    "timestamp": "2025-12-12 12:47:55",
+    "ocr_snippet": "l tues\nnat tc meee te",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample8.jpg",
+    "timestamp": "2025-12-12 12:47:56",
+    "ocr_snippet": "special shev chivada \nspecial snev chivada li\nritkawali   l of\ningredients  gram split flour, rice flakes, ne\nmy refined ediblevegetableoil,peanuts,   wee\nchilli powder, turmeric powder  lodised salt ",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ]
+  },
+  {
+    "filename": "sample9.jpg",
+    "timestamp": "2025-12-12 12:47:57",
+    "ocr_snippet": "ff be a wena, aq sp \nim i8o6oio 5oi4i9 omer \nl corn al 8, edible vegetable ontans one or more of the followings\n7 palmer, rce bran, cor, cottonseed, seasoning edible commonsalt sugar,\ntwactodextrn, st",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "corn",
+      "wheat_gluten",
+      "milk"
+    ]
+  },
+  {
+    "filename": "sample1.jpg",
+    "timestamp": "2025-12-12 12:47:57",
+    "ocr_snippet": "a l turmeric, black pepper, l\nbengal gram, black gram, \nofa  l keepin on oirtight container\naf packed in india ,",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample10.jpg",
+    "timestamp": "2025-12-12 12:47:58",
+    "ocr_snippet": ",  a , oa\n\nne l co evd a   \n, i keep away from d eee\n\n   7 i  i  4  al\n\n ru 8 hoo6o7o 5oo276 4\nate ee pw pace ic enero ee ee ae ity we   \npoem ae eee se os sey \neee l oe ee le je\noe ae pree oe le etre",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample11.jpg",
+    "timestamp": "2025-12-12 12:47:59",
+    "ocr_snippet": "oe or a  mnl nl  wn one a va ne\nae  ren cae\na epee oranges,\n\neo my  he a is ee ee  va\n\nve se   seine sy en a\n\nfa \ni",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample12.jpg",
+    "timestamp": "2025-12-12 12:47:59",
+    "ocr_snippet": "ron a an eget l\npapi pep hetae ie og 4a\nps ogg nes tf es wik 4\nso wss ss a\npotato 8 edible vegetable ol cont one or more of the followings palmolein,\ngroundnut seasoning sugar, e ible common salt, mal",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut",
+      "wheat_gluten",
+      "corn"
+    ]
+  },
+  {
+    "filename": "sample13.jpg",
+    "timestamp": "2025-12-12 12:48:01",
+    "ocr_snippet": "pmcroductamcategorymaplains yetntional pen ce\ngm a, le as i\n gules 2a, weiupel l mnegt ic aes it\n fflavounvanillaye seemeeememaesl oi2i 922is  manan l mz  aoe l ge\nhmcontalns soya l gees\ntreenutand mi",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "milk",
+      "soy"
+    ]
+  },
+  {
+    "filename": "sample14.jpg",
+    "timestamp": "2025-12-12 12:48:02",
+    "ocr_snippet": "aes me ot fibre, qr in vitam\n sanat  in vitarnie protein loo   ian a\n ron oh   7 ok les ge a  at\nst cake j bie pao cholestera\n eae  in mix 663 rolled oats flour serving io\npao coo ie aa  lyperi\nte ien",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "corn",
+      "sulfite",
+      "fish",
+      "sesame"
+    ]
+  },
+  {
+    "filename": "sample2.jpg",
+    "timestamp": "2025-12-12 12:48:03",
+    "ocr_snippet": "ae l aitttional ge\nhe fo ser ze 4o st matigng   rs\nl ,  s ,   or save  rda  i\nenergy ticay  ioo, 6og perserve lo\n\n l total fat gy  we 4a pg\ngf jrans fat gy o o fos\n 4 cholesterol mg, gy gs  be\nets ico",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample3.jpg",
+    "timestamp": "2025-12-12 12:48:04",
+    "ocr_snippet": "l ,     \n l\nl orange a l\n  grush , l\n ingredients sugar, orange juice 27\nl    contains permitted synthetic food\n 3c  flavours natural, nature identical   a\n pe artificial flavouring substances \n  oran",
+    "risk_level": "MODERATE",
+    "detected_allergens": [
+      "sulfite"
+    ]
+  },
+  {
+    "filename": "sample4.jpg",
+    "timestamp": "2025-12-12 12:48:05",
+    "ocr_snippet": "pedryfruitkachori l\ni ingredients retined wheat flour malda, cashewnut, sugar, ral\nnd, ghee, chickpea flour, refined groundnut oll, lodised salt jo\n7 notidonel value adptoxiood yf cece ped mpeg o a ae",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "wheat_gluten",
+      "tree_nut",
+      "milk",
+      "peanut"
+    ]
+  },
+  {
+    "filename": "sample5.jpg",
+    "timestamp": "2025-12-12 12:48:06",
+    "ocr_snippet": "pah nee srt ethene bebe y ony te canceling eer aaned aoe\nloe lgb  polbvecolg von mld aws  ey\nsr nr , ole cat os a shee an ls\n abvageszes  voleve net\nuns oo ea uod reo c8 on eo\no 4g 3o9g sald ee et es ",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample6.jpg",
+    "timestamp": "2025-12-12 12:48:07",
+    "ocr_snippet": "et sie na rae ma o ne vey man i pie noe if wot  oy ur ae de an ee\nsen qa wee ne meant gus pies\nwary vi deena oe ms 8 2  a ee  canes os i , ne\nan ty mette mr cn st ran a ee  it idoog\nne on a nea wal py",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample7.jpg",
+    "timestamp": "2025-12-12 12:48:08",
+    "ocr_snippet": "l tues\nnat tc meee te",
+    "risk_level": "LOW",
+    "detected_allergens": []
+  },
+  {
+    "filename": "sample8.jpg",
+    "timestamp": "2025-12-12 12:48:08",
+    "ocr_snippet": "special shev chivada \nspecial snev chivada li\nritkawali   l of\ningredients  gram split flour, rice flakes, ne\nmy refined ediblevegetableoil,peanuts,   wee\nchilli powder, turmeric powder  lodised salt ",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "peanut"
+    ]
+  },
+  {
+    "filename": "sample9.jpg",
+    "timestamp": "2025-12-12 12:48:09",
+    "ocr_snippet": "ff be a wena, aq sp \nim i8o6oio 5oi4i9 omer \nl corn al 8, edible vegetable ontans one or more of the followings\n7 palmer, rce bran, cor, cottonseed, seasoning edible commonsalt sugar,\ntwactodextrn, st",
+    "risk_level": "HIGH",
+    "detected_allergens": [
+      "corn",
+      "wheat_gluten",
+      "milk"
+    ]
+  }
+]
