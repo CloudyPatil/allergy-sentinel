@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar';
 import ResultCard from '../components/ResultCard';
 import { useAllergies } from '../context/AllergyContext'; 
 import { Camera, Upload, X, Loader2, Settings, Plus, RotateCcw, Check } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 // The list of quick-select options
 const COMMON_ALLERGENS = ["Milk", "Peanut", "Soy", "Egg", "Wheat", "Shellfish", "Tree Nut", "Fish", "Sesame", "Mustard", "Corn", "Sulfite"];
@@ -57,7 +56,7 @@ const Scanner = () => {
     setCustomInput("");
   };
 
-    const handleScan = async () => {
+  const handleScan = async () => {
     if (!file) return;
 
     if (scanAllergies.length === 0) {
@@ -72,15 +71,18 @@ const Scanner = () => {
     formData.append("allergens", scanAllergies.join(",")); 
 
     try {
-      console.log("Sending request to backend..."); // Debug log
+      console.log("Sending request to backend..."); 
+      
+      // Smart Switching: Uses Localhost if .env exists, otherwise Render
       const API_URL = import.meta.env.VITE_API_URL || "https://allergy-sentinel.onrender.com";
 
       const response = await axios.post(`${API_URL}/scan`, formData, {
-        headers: { "Content-Type": "multipart/form-data" },
-        timeout: 120000 // <--- CRITICAL FIX: Wait up to 2 minutes (120,000ms)
+        // --- FIX: REMOVED MANUAL HEADER LINE HERE ---
+        // Axios will now automatically add the correct Content-Type with Boundary
+        timeout: 120000 // Wait up to 2 minutes
       });
       
-      console.log("Response received:", response.data); // Debug log
+      console.log("Response received:", response.data); 
       const data = response.data;
       setResult(data);
 
@@ -92,7 +94,6 @@ const Scanner = () => {
     } catch (err) {
       console.error("Scan Error:", err);
       
-      // Better error messages for you
       if (err.code === 'ECONNABORTED') {
         alert("Server took too long to respond. The free server is waking up. Please try again in 10 seconds!");
       } else if (err.response) {
@@ -133,18 +134,15 @@ const Scanner = () => {
           </button>
         </div>
 
-        {/* OVERRIDE PANEL (Conditionally Visible) */}
+        {/* OVERRIDE PANEL */}
         {showEdit && (
           <div className="bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-brand-200 dark:border-brand-900 p-5 mb-6 animate-in slide-in-from-top-2">
-            
             <div className="flex justify-between items-center mb-4">
               <h3 className="font-bold text-sm uppercase text-gray-500">Temporary Scan Filters</h3>
               <button onClick={resetToProfile} className="text-xs text-brand-600 flex items-center gap-1 hover:underline">
                 <RotateCcw className="w-3 h-3" /> Reset to Profile
               </button>
             </div>
-
-            {/* QUICK ADD TAGS */}
             <div className="flex flex-wrap gap-2 mb-6">
               {COMMON_ALLERGENS.map((item) => {
                 const isActive = scanAllergies.includes(item.toLowerCase());
@@ -164,8 +162,6 @@ const Scanner = () => {
                 );
               })}
             </div>
-
-            {/* CUSTOM INPUT */}
             <form onSubmit={addLocalCustom} className="flex gap-2">
               <input
                 type="text"
