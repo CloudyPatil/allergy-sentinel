@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, Form
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import shutil
 import os
@@ -14,9 +14,9 @@ from image_processor import preprocess_image_for_ocr
 if os.name == 'nt':
     pytesseract.pytesseract.tesseract_cmd = r"D:\Tesseract-OCR\tesseract.exe"
 
-
 app = FastAPI()
 
+# Allow Vercel to talk to Render
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -28,21 +28,17 @@ app.add_middleware(
 def score_ocr_text(text):
     """
     Scores the quality of the OCR text.
-    - Heavily prioritizes finding the 'INGREDIENTS' header.
-    - Counts food terms.
     """
     if not text: return 0
     
     score = 0
     lower_text = text.lower()
 
-    # CRITICAL: If we find the start of the list, this is the winning text.
     if "ingredient" in lower_text or "ingredients" in lower_text:
-        score += 50  # Massive bonus
+        score += 50
     if "contains" in lower_text:
         score += 10
 
-    # Common words in ingredient lists (not nutrition facts)
     keywords = ["water", "sugar", "syrup", "acid", "gum", "oil", "starch", "corn", "red", "yellow", "blue", "color", "flavor", "sodium"]
     for k in keywords:
         if k in lower_text:
@@ -60,12 +56,36 @@ async def scan_food(
     allergens: str = Form(...) 
 ):
     temp_filename = f"temp_{file.filename}"
-    with open(temp_filename, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
-
+    
     try:
-        # --- MULTI-PASS OCR STRATEGY ---
+        # 1. Save the upload to disk momentarily
+        with open(temp_filename, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+
+        # --- MEMORY PROTECTION (CRITICAL FIX) ---
+        # We load the image with OpenCV and check its size immediately.
         img = cv2.imread(temp_filename)
+        
+        if img is None:
+            raise HTTPException(status_code=400, detail="Invalid image file")
+
+        height, width = img.shape[:2]
+        max_dimension = 1024 # Limit size to 1024px to save RAM (512MB limit on Render)
+
+        if max(height, width) > max_dimension:
+            # Calculate new size maintaining aspect ratio
+            scale = max_dimension / max(height, width)
+            new_width = int(width * scale)
+            new_height = int(height * scale)
+            
+            print(f"📉 Resizing Image from {width}x{height} to {new_width}x{new_height} to save memory.")
+            img = cv2.resize(img, (new_width, new_height), interpolation=cv2.INTER_AREA)
+            
+            # Save the smaller image back to disk so 'image_processor.py' uses the small version too
+            cv2.imwrite(temp_filename, img)
+        # ----------------------------------------
+
+        # --- MULTI-PASS OCR STRATEGY ---
         custom_config = r'--oem 3 --psm 6' # Block of text mode
         
         # 1. Raw Grayscale (Best for Black-on-White)
@@ -73,13 +93,12 @@ async def scan_food(
         text_1 = pytesseract.image_to_string(gray, config=custom_config)
         
         # 2. Vision Pro (Best for Glare/Noise)
+        # Note: This now reads the RESIZED image from disk, so it won't crash!
         processed_img = preprocess_image_for_ocr(temp_filename)
         text_2 = pytesseract.image_to_string(processed_img, config=custom_config)
 
-        # 3. Inverted Raw (Best for White-on-Black labels like Mtn Dew)
-        # We invert the grayscale image to turn White Text -> Black Text
+        # 3. Inverted Raw (Best for White-on-Black labels)
         inverted_gray = cv2.bitwise_not(gray)
-        # Boost contrast on the inverted image
         inverted_gray = cv2.threshold(inverted_gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
         text_3 = pytesseract.image_to_string(inverted_gray, config=custom_config)
 
@@ -93,7 +112,7 @@ async def scan_food(
         print(f"2. Proc: {score_2}")
         print(f"3. Inv:  {score_3}")
 
-        # Pick the one with the highest food score
+        # Pick the winner
         if score_3 >= score_1 and score_3 >= score_2:
             best_text = text_3
             print("✅ Winner: INVERTED (Pass 3)")
@@ -104,14 +123,10 @@ async def scan_food(
             best_text = text_1
             print("✅ Winner: RAW (Pass 1)")
 
-        print("--- EXTRACTED TEXT START ---")
-        print(best_text[:300]) # Print first 300 chars to check
-        print("--- EXTRACTED TEXT END ---\n")
-
         # 2. LOGIC PIPELINE
         ingredients_text = extract_ingredients_section(best_text)
         
-        if len(ingredients_text) < 5: # Fallback if extraction failed
+        if len(ingredients_text) < 5: 
             ingredients_text = best_text
 
         items = split_ingredients_list(ingredients_text)
@@ -127,8 +142,10 @@ async def scan_food(
 
     except Exception as e:
         print(f"ERROR: {e}")
-        return {"error": str(e)}
+        # Return a 500 error so the frontend knows something went wrong
+        raise HTTPException(status_code=500, detail=str(e))
     
     finally:
+        # Clean up the temp file
         if os.path.exists(temp_filename):
             os.remove(temp_filename)
