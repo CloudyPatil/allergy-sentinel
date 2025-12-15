@@ -57,7 +57,7 @@ const Scanner = () => {
     setCustomInput("");
   };
 
-  const handleScan = async () => {
+    const handleScan = async () => {
     if (!file) return;
 
     if (scanAllergies.length === 0) {
@@ -72,10 +72,14 @@ const Scanner = () => {
     formData.append("allergens", scanAllergies.join(",")); 
 
     try {
+      console.log("Sending request to backend..."); // Debug log
+      
       const response = await axios.post("https://allergy-sentinel.onrender.com/scan", formData, {
-        headers: { "Content-Type": "multipart/form-data" }
+        headers: { "Content-Type": "multipart/form-data" },
+        timeout: 120000 // <--- CRITICAL FIX: Wait up to 2 minutes (120,000ms)
       });
       
+      console.log("Response received:", response.data); // Debug log
       const data = response.data;
       setResult(data);
 
@@ -85,8 +89,16 @@ const Scanner = () => {
       localStorage.setItem('scanHistory', JSON.stringify(updatedHistory));
 
     } catch (err) {
-      console.error(err);
-      alert("Failed to scan. Is backend running?");
+      console.error("Scan Error:", err);
+      
+      // Better error messages for you
+      if (err.code === 'ECONNABORTED') {
+        alert("Server took too long to respond. The free server is waking up. Please try again in 10 seconds!");
+      } else if (err.response) {
+        alert(`Server Error: ${err.response.status} - ${err.response.data?.detail || "Unknown error"}`);
+      } else {
+        alert("Connection Failed. Check your internet or backend URL.");
+      }
     } finally {
       setLoading(false);
     }
