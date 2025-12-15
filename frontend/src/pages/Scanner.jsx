@@ -73,8 +73,9 @@ const Scanner = () => {
 
     try {
       console.log("Sending request to backend..."); // Debug log
-      
-      const response = await axios.post("https://allergy-sentinel.onrender.com/scan", formData, {
+      const API_URL = import.meta.env.VITE_API_URL || "https://allergy-sentinel.onrender.com";
+
+      const response = await axios.post(`${API_URL}/scan`, formData, {
         headers: { "Content-Type": "multipart/form-data" },
         timeout: 120000 // <--- CRITICAL FIX: Wait up to 2 minutes (120,000ms)
       });
